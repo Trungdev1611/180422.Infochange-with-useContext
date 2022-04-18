@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+/* border: 3px solid red; */
+}
+.App {
+    width: 300px;
+}
+.edit {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: white;
+border-radius: 10px;
+-webkit-box-shadow: 5px 5px 15px 5px #EDEDED; 
+box-shadow: 5px 5px 15px 5px #EDEDED;
+/* border: 3px solid red; */
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+   
+
+}
+.edit button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    color: blueviolet;
+    font-weight: 500;
+    border: none;
+    min-width: 60px;
+    
+}
+.edit button.btn-cancel {
+    margin-left: 20px;
+}
+.buttons{
+    display: flex;
+   justify-content: flex-end;
+
+    
+}
+label:not(:first-child) {
+    margin-top: 5px;
+}
+label {
+    padding: 5px 0;
+}
+.avartar {
+    display: flex;
+    flex-direction: row;
+
+}
+img {
+    width: 100%;
+}
+img.borderimg {
+    border: 2px solid rgb(150, 81, 81);
+}
